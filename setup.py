@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 #from src.version import version
 import os
 print("CWD", os.getcwd())
+os.system('ls -la "' + os.getcwd() + '"')
 from version import version
 
 with open("README.md", "r", encoding="utf-8") as fh:
