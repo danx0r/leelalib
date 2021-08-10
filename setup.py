@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
-#from src.version import version
 import os, sys
 print("PATH", sys.path)
 print("CWD", os.getcwd())
 os.system('ls -la "' + os.getcwd() + '"')
-from version import version
+from .src.version import version
+#from version import version
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
