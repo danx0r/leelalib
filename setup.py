@@ -4,7 +4,6 @@ print("PATH", sys.path)
 print("CWD", os.getcwd())
 os.system('ls -la "' + os.getcwd() + '"')
 from leelalib.version import version
-#from version import version
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
