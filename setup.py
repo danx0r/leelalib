@@ -13,7 +13,7 @@ setup(
     name="leelalib",
     version=version,
     py_modules=['config'],
-    packages=find_packages(where="src"),
+    packages=find_packages(where="leelalib"),
     python_requires='>=3.6',
     scripts=[],
     install_requires=[
