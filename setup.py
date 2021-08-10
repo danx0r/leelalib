@@ -8,7 +8,7 @@ setup(
     name="leelalib",
     version=version,
     py_modules=['config'],
-    packages=find_packages(),
+    packages=find_packages(where="src"),
     python_requires='>=3.6',
     scripts=[],
     install_requires=[
