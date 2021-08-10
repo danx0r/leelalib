@@ -1,0 +1,37 @@
+# emacs backup files
+custom.el
+emacs-config.el
+org-clock-save.el
+org-mode-config.el
+
+# python virtual envs
+venv
+
+auto-save-list
+*~
+.#*
+\#*
+TAGS
+
+url/
+*.log
+.DS_Store
+
+.idea/
+
+*/**/__pycache__
+*.pyc
+*.pyc~
+*.py~
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+out/
+lib/**/*.class
+lib/**/*.pkc
+lib/cachedir/packages/packages.idx
+.idea/workspace.xml
+.idea/tasks.xml
+
+*log.txt
+*.pickle
