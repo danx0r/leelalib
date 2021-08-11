@@ -1,8 +1,12 @@
+print("LEELALIB SETUP.PY")
+
 from setuptools import setup, find_packages
+
 import os, sys
 print("PATH", sys.path)
 print("CWD", os.getcwd())
 os.system('ls -la "' + os.getcwd() + '"')
+
 from leelalib.version import version
 
 with open("README.md", "r", encoding="utf-8") as fh:
